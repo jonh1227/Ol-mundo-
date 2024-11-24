@@ -65,7 +65,7 @@ const questions = [
         opcoes: [
             { texto: "É aonde ela quiser", correta: true },
             { texto: "Na cozinha", correta: false },
-            { texto: "Na sala", correta: false }
+            { texto: "Lavando roupa", correta: false }
         ]
     }
 ];
