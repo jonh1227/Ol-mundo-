@@ -181,7 +181,7 @@ function finishRecruitment() {
 
         <div id="promotion-info">
             <p><strong>Para subir de cargo:</strong></p>
-            <p>Você precisa fazer 10 pontos durante a semana. Esses pontos serão contabilizados durante a reunião de sábado, às 19h. 2 pontos devem ser de conteção e os outros 8 pontos podem ser de ações e eventos.</p>
+            <p>Você precisa fazer 10 pontos durante a semanas. Esses pontos serão contabilizados durante a reunião de sábado, às 19h. 2 pontos devem ser de conteção e os outros 8 pontos podem ser de ações e eventos.</p>
             <p><strong>Como fazer conteção para ganhar pontos:</strong></p>
             <p>Vá até o canal 『🔎』𝗕𝗔𝗧𝗘-𝗣𝗢𝗡𝗧𝗢 no Discord e digite <code>/ponto</code> para iniciar.</p>
             <p><strong>Importante:</strong> Você pode fazer até 3 pausas de 30 minutos durante a conteção. Para ganhar pontos na conteção, o tempo mínimo é de 50 minutos de atividade.</p>
