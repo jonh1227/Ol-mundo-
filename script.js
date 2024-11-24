@@ -170,9 +170,9 @@ function finishRecruitment() {
 
         <div id="cargo-info">
             <p><strong>Cargo Atribuído:</strong> ${cargo}</p>
-            <p><strong>Seu Apelido: #ff0000CV|${nick}</p>
+            <p id="red"><strong>Seu Apelido: #ff0000CV|${nick}</p>
             <p><strong>A bind gerada é:</strong></p>
-            <p>bind 0 cv ⌜ ${nick} | ${cargo} ⌟ sᴜʙɪɴᴅᴏ ᴏ ᴄᴏᴍᴘʟᴇxᴏ !!!</p>
+            <p id="red">bind 0 cv ⌜ ${nick} | ${cargo} ⌟ sᴜʙɪɴᴅᴏ ᴏ ᴄᴏᴍᴘʟᴇxᴏ !!!</p>
         </div>
 
         <div id="instructions">
