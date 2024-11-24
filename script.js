@@ -184,11 +184,11 @@ function finishRecruitment() {
             <p>Você precisa fazer 10 pontos durante a semana. Esses pontos serão contabilizados durante a reunião de sábado, às 19h. 2 pontos devem ser de contação e os outros 8 pontos podem ser de ações e eventos.</p>
             <p><strong>Como fazer contação para ganhar pontos:</strong></p>
             <p>Vá até o canal 『🔎』𝗕𝗔𝗧𝗘-𝗣𝗢𝗡𝗧𝗢 no Discord e digite <code>/ponto</code> para iniciar.</p>
-            <p><strong>Importante:</strong> Você pode fazer até 3 pausas de 30 minutos durante a contação. Para ganhar pontos na contação, o tempo mínimo é de 50 minutos de atividade.</p>
+            <p><strong>Importante:</strong> Você pode fazer até 3 pausas de 30 minutos durante a conteção. Para ganhar pontos na contação, o tempo mínimo é de 50 minutos de atividade.</p>
         </div>
 
         <div id="discord-link">
-            <p><strong>Servidor do Discord:</strong> <a href="https://discord.gg/seulink" target="_blank">Clique aqui</a></p>
+            <p id="red"><strong>Servidor do Discord:</strong> <a href="https://discord.gg/seulink" target="_blank">Clique aqui</a></p>
         </div>
     `;
 }
