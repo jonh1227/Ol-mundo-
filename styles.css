@@ -59,3 +59,72 @@ button:hover {
 .questions div {
     margin-bottom: 15px;
 }
+
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Layout principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Títulos */
+  h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o formulário ou elementos de entrada */
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Ajustando o layout para telas pequenas */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    /* Ajustando o formulário */
+    input, textarea {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
+  /* Layout para telas ainda maiores (ex: desktops grandes) */
+  @media (min-width: 1200px) {
+    .container {
+      padding: 40px;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  }
+  
