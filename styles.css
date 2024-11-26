@@ -2,168 +2,60 @@ body {
     background-image: url('https://s1.static.brasilescola.uol.com.br/be/2024/03/sigla-do-comando-vermelho-em-um-muro.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    color: white;
     font-family: Arial, sans-serif;
-    background-color: #000000; /* Fundo preto */
+    text-align: center;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #ffffff; /* Texto branco */
+    padding: 0;
 }
 
 .container {
-    text-align: center;
-    background: #000000; /* Fundo cinza escuro para contraste */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    width: 90%;
+    margin: 20px;
+    width: 100%;
     max-width: 400px;
 }
 
-.logo {
-    width: 200px;
-    margin-bottom: 20px;
+.box h2 {
+    color: red;
 }
 
-h1, h2 {
-    font-size: 24px;
-    color: #ff0000; /* Vermelho para títulos */
-    margin-bottom: 20px;
-}
-
-#red {
-    color: #ff0000;
-}
-
-
-form, #quiz-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-label {
-    font-size: 16px;
-    color: #ff0000; /* Vermelho suave */
-    margin-bottom: 10px;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ff0000; /* Borda vermelha */
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #000000; /* Fundo preto */
-    color: #ff0000; /* Texto branco */
-}
-
-input[type="text"]::placeholder {
-    color: #ff0000; /* Vermelho claro para placeholders */
+.nickname {
+    color: red;
 }
 
 button {
-    background-color: #ff0000; /* Vermelho forte */
-    color: #ffffff; /* Texto branco */
+    background-color: red;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #5100ff; /* Vermelho mais escuro no hover */
+    background-color: #cc0000;
 }
 
-button.option {
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: #000000; /* Fundo cinza escuro */
-    border: 1px solid #ff0000; /* Borda vermelha */
-    color: #ffffff; /* Texto branco */
-    padding: 10px;
-    transition: background-color 0.3s, color 0.3s;
+.logo {
+    margin-bottom: 20px;
 }
 
-button.option:hover {
-    background-color: #ffffff; /* Fundo vermelho no hover */
-    color: #000000; /* Texto preto no hover */
-}
-
-button.option:disabled {
-    opacity: 0.7; /* Botões desabilitados mais apagados */
-    cursor: not-allowed;
-}
-
-button.option.correct {
-    background-color: #00cc00; /* Verde para resposta correta */
-    color: #ffffff;
-}
-
-button.option.incorrect {
-    background-color: #cc0000; /* Vermelho escuro para resposta incorreta */
-    color: #ffffff;
-}
-
-#options {
-    width: 100%;
-}
-
-p {
-    color: #ffffff;
-}
-
-/* Seção de resultados */
-#final-result-container {
+.questions {
     display: none;
+    flex-direction: column;
 }
 
-#final-result-container p {
-    font-size: 18px;
+.questions div {
     margin-bottom: 15px;
-}
-
-#final-result-container a {
-    color: #ff0000; /* Link vermelho */
-    text-decoration: none;
-}
-
-#final-result-container a:hover {
-    text-decoration: underline;
-}
-
-#instructions {
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-#bind-info, #cargo-info {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.restart {
-    background-color: #ff0000;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    transition: background-color 0.3s;
-}
-
-.restart:hover {
-    background-color: #ff5e00; /* Cor de hover para o botão "Tentar novamente" */
-}
-
-/* Escondendo a seção final até ser exibida */
-#final-result-container {
-    display: block;
 }
